@@ -1,11 +1,22 @@
+import { Link } from 'gatsby'
 import * as React from 'react'
-import Layout from '../components/layout'
+import { Col, Container, Row } from 'react-bootstrap'
 
 const IndexPage = () => {
   return (
-    <Layout pageTitle="Home Page">
-      <p>I'm making this by following the Gatsby Tutorial.</p>
-    </Layout>
+
+    <Container fluid style={{justifyContent:'center', alignItems:'center',minHeight:'100vh'}}>
+      <Row style={{padding:'30vh 30vw'}}>
+        <Col>
+        <center>
+      <Link to="/about" >enter.</Link>
+
+        </center>
+        
+        </Col>
+      </Row>
+      
+      </Container>
   )
 }
 
