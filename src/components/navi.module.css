@@ -1,0 +1,15 @@
+
+
+a:active { text-decoration: none; }
+
+a:hover {
+  text-decoration:  none;
+  font-style:italic;
+  color:black
+}
+
+a { color:black}
+/* nav div:hover span a{
+  animation:  shake 0.8s  ;
+  
+} */

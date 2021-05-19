@@ -7,7 +7,7 @@ import Layout from '../components/layout'
 const PortfolioPage = () => {
   return (
       <Layout pageTitle="Portfolio">
-            <p>Projects will go here.</p>
+            <p>- - - i n p r o g r es s - - -</p>
    
       </Layout>
     
