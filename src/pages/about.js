@@ -7,7 +7,10 @@ import Layout from '../components/layout'
 const AboutPage = () => {
   return (
       <Layout pageTitle="About">
-            <p>Hi there! I'm the proud creator of this site, which I built with Gatsby.</p>
+            <p>Welcome to my portfolio site! I am a full stack web developer and an experienced technical support engineer for Adobe. I am constantly looking to learn and practice new ideas and technologies. Hit me up if you'd like to chat, I'll try my best to respond :)
+
+              Currently I am learning gatsbyjs (by updating this site!) and I am working on a personal project involving twitch chatbots, shopify api, react, firebase, nodejs and express. Check out my projects page for more info on this and the rest of my projects!
+            </p>
    
       </Layout>
     
