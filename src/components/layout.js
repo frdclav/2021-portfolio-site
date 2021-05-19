@@ -22,7 +22,7 @@ const Layout = ({ pageTitle, children }) => {
       
       <Jumbotron>
         <center>
-          <h2>frdc.info</h2>
+          
           <h5>francis rodson d. clavel</h5>
           
         <Container>
