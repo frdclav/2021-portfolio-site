@@ -4778,24 +4778,24 @@ if (false) {} else {
 /***/ }),
 
 /***/ "react-dom/server":
-/*!**************************************************************************************************************!*\
-  !*** external "/Users/francisrodsonclavel/frdclav-git/2021-portfolio-site/node_modules/react-dom/server.js" ***!
-  \**************************************************************************************************************/
+/*!*************************************************************************************!*\
+  !*** external "/home/frdclav/2021-portfolio-site/node_modules/react-dom/server.js" ***!
+  \*************************************************************************************/
 /***/ ((module) => {
 
 "use strict";
-module.exports = require("/Users/francisrodsonclavel/frdclav-git/2021-portfolio-site/node_modules/react-dom/server.js");;
+module.exports = require("/home/frdclav/2021-portfolio-site/node_modules/react-dom/server.js");;
 
 /***/ }),
 
 /***/ "react":
-/*!*********************************************************************************************************!*\
-  !*** external "/Users/francisrodsonclavel/frdclav-git/2021-portfolio-site/node_modules/react/index.js" ***!
-  \*********************************************************************************************************/
+/*!********************************************************************************!*\
+  !*** external "/home/frdclav/2021-portfolio-site/node_modules/react/index.js" ***!
+  \********************************************************************************/
 /***/ ((module) => {
 
 "use strict";
-module.exports = require("/Users/francisrodsonclavel/frdclav-git/2021-portfolio-site/node_modules/react/index.js");;
+module.exports = require("/home/frdclav/2021-portfolio-site/node_modules/react/index.js");;
 
 /***/ })
 

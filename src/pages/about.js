@@ -4,13 +4,13 @@ import * as React from "react";
 import Layout from "../components/layout";
 
 // Step 2: Define your component
-const AboutPage = () => {
+const AboutPage = () =>
+{
   return (
-    <Layout pageTitle="About">
-      <h4>
-        Welcome to my portfolio site! </h4><h5>I am a full stack web developer and an
+    <Layout pageTitle="About" style={{ maxWidth: '60vw', padding: '25px' }}>
+      <h5>I am a full stack web developer and
         experienced technical support engineer for Adobe.</h5>
-      
+
       <p>
         I am constantly looking to learn and practice new ideas and
         technologies. Hit me up if you'd like to chat, I'll try my best to
