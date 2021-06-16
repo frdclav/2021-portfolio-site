@@ -11,7 +11,7 @@ const Navi = ({ pageTitle, children }) => {
     <Navbar bg="transparent" expand="lg">
       <div>
         <Navbar.Brand className="brand">
-          <Link to="/about">francis rodson d. clavel</Link>
+          <Link to="/">francis rodson d. clavel</Link>
         </Navbar.Brand>
       </div>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
