@@ -1,11 +1,10 @@
 // Step 1: Import your component
-import * as React from 'react'
+import * as React from "react";
 // import { Link } from 'gatsby'
-import Layout from '../components/layout'
+import Layout from "../components/layout";
 
 // Step 2: Define your component
-const PortfolioPage = () =>
-{
+const PortfolioPage = () => {
   // create portfolio items
 
   // var a = new portfolioObj( "Train Schedules", "assets/images/trainTimes.png", "An app that allows user to store train times and learn when the next train arrives. Uses Firebase Real Time DB for data persistence!", "https://github.com/frdclav/TrainSchedule" )
@@ -36,29 +35,59 @@ const PortfolioPage = () =>
 
   // var listOfPortfolioItems = [ m, l, k, f ]
 
-
   // listOfPortfolioItems.forEach(element => {
   //     element.showItem();
   // })
   return (
     <Layout pageTitle="Portfolio">
-      <div style={{ padding: '10px' }}>
+      <div style={{ padding: "10px" }}>
         <h5>Rodsqueue</h5> <h6>Twitch chatbot and queue utility</h6>
-        <p>Application built on NodeJS/Express/React/Firebase that integrates the Twitch Chat bot commands with Shopify API to handle queue and orders for livestream card rips. App allows users to link to their Shopify store, and users who make purchases in Shopify are able to confirm and queue in during livestreams via the Twitch Chat bot. Project is currently in progress.</p><span><a href='https://github.com/frdclav/rodsqueue-twitch-chat-bot'>-> github</a></span></div>
-      <div style={{ padding: '10px' }}>
-
-        <h5>MotoWeather</h5> <h6>App for planning motorcycle rides around the weather through route</h6>
-        <p>Application aimed at helping motorcycle riders plan rides by allowing users to check specific weather forecasts across their intended route. Project uses the Mapbox and OpenWeather APIs and is built on the MERN stack.</p><span><a href='https://github.com/frdclav/riders-on-the-storm-proj3'>-> github</a></span></div>
-      <div style={{ padding: '10px' }}>
-
-        <h5>ThunderTunes</h5>  <h6>Sound clip upload and sharing app</h6>
-        <p>Application aimed at musicians for sharing sound clips. Site allows upload of audio files and features a universal stream/timeline of sound posts for users to browse and listen to. Project uses Firebase, Ajax, S3 for file storage and Howler.JS for audio playback.</p><span><a href='https://github.com/JWsoundsystems/project2'>-> github</a></span></div>
-
-
+        <p>
+          Application built on NodeJS/Express/React/Firebase that integrates the
+          Twitch Chat bot commands with Shopify API to handle queue and orders
+          for livestream card rips. App allows users to link to their Shopify
+          store, and users who make purchases in Shopify are able to confirm and
+          queue in during livestreams via the Twitch Chat bot. Project is
+          currently in progress.
+        </p>
+        <span>
+          <a href="https://github.com/frdclav/rodsqueue-twitch-chat-bot">
+            -> github
+          </a>
+        </span>
+      </div>
+      <div style={{ padding: "10px" }}>
+        <h5>MotoWeather</h5>{" "}
+        <h6>
+          App for planning motorcycle rides around the weather through route
+        </h6>
+        <p>
+          Application aimed at helping motorcycle riders plan rides by allowing
+          users to check specific weather forecasts across their intended route.
+          Project uses the Mapbox and OpenWeather APIs and is built on the MERN
+          stack.
+        </p>
+        <span>
+          <a href="https://github.com/frdclav/riders-on-the-storm-proj3">
+            -> github
+          </a>
+        </span>
+      </div>
+      <div style={{ padding: "10px" }}>
+        <h5>ThunderTunes</h5> <h6>Sound clip upload and sharing app</h6>
+        <p>
+          Application aimed at musicians for sharing sound clips. Site allows
+          upload of audio files and features a universal stream/timeline of
+          sound posts for users to browse and listen to. Project uses Firebase,
+          Ajax, S3 for file storage and Howler.JS for audio playback.
+        </p>
+        <span>
+          <a href="https://github.com/JWsoundsystems/project2">-> github</a>
+        </span>
+      </div>
     </Layout>
-
-  )
-}
+  );
+};
 
 // Step 3: Export your component
-export default PortfolioPage
+export default PortfolioPage;

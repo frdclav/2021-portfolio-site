@@ -2,7 +2,7 @@
 import * as React from "react";
 // import { Link } from 'gatsby'
 import Layout from "../components/layout";
-import PictureOfMe from "../../public/static/images/IMG_3117.jpg";
+import PictureOfMe from "../../src/images/IMG_3117.jpg";
 import { Container, Row, Col } from "react-bootstrap";
 // Step 2: Define your component
 const AboutPage = () => {
