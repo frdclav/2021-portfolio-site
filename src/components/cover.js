@@ -1,16 +1,14 @@
 import * as React from "react";
 import { Link } from "gatsby";
 import "bootstrap/dist/css/bootstrap.min.css";
-import
-{
+import {
   container,
   heading,
   navLinks,
   navLinkItem,
   navLinkText,
 } from "./layout.module.css";
-import
-{
+import {
   Navbar,
   Nav, Container, Jumbotron, Row, Col
 
@@ -20,15 +18,14 @@ import Navi from "./navi";
 import StyledBackgroundSection from "./styledBackgroundSection";
 // import { Link } from 'react-router-bootstrap'
 
-const Layout = ( { pageTitle, children } ) =>
-{
+const Layout = ({ pageTitle, children }) => {
   return (
     <React.Fragment>
-<StyledBackgroundSection>
-      <Container style = {{maxHeight:"100vh", borderStyle:"solid", borderWidth:"100px", borderColor:"transparent"}}>
-        
-        {children}
-      </Container>
+      <StyledBackgroundSection>
+        <Container style={{ height: "100vh", paddingTop: "50px" }}>
+
+          {children}
+        </Container>
       </StyledBackgroundSection>
     </React.Fragment>
 
