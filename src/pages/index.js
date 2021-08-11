@@ -27,7 +27,7 @@ const AboutPage = () => {
       <Row >
         {/* <Col xs={1}></Col> */}
 
-        {isTabletOrMobile && <Col xs={12} style={{ fontFamily: "Stix Two Text", display: "flex", flexDirection: "column", justifyContent: "center", textAlign: "center", color: "#602060", textShadow: "3px 3px #ffffe6" }}><h1 style={{ fontSize: "100px", postion: "center" }}>FRDC</h1></Col>}
+        {isTabletOrMobile && <Col xs={12} style={{ fontFamily: "Stix Two Text", display: "flex", flexDirection: "column", justifyContent: "center", textAlign: "center", color: "#602060", textShadow: "3px 3px #ffffe6" }}><h1 style={{ fontSize: "15vh", postion: "center" }}>FRDC</h1></Col>}
         {!isTabletOrMobile && <Col xs={12} style={{ fontFamily: "Stix Two Text", display: "flex", flexDirection: "column", justifyContent: "center", textAlign: "center", color: "#602060", textShadow: "7px 5px #ffffe6" }}><h1 style={{ fontSize: "200px", postion: "center" }}>FRDC</h1></Col>}
 
         {/* <Col xs={1}></Col> */}
