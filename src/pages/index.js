@@ -45,12 +45,12 @@ const AboutPage = () => {
             ></img> */}
           <h3></h3>
 
-          <h1>Device Test!</h1>
+          {/* <h1>Device Test!</h1>
           {isDesktopOrLaptop && <p>You are a desktop or laptop</p>}
           {isBigScreen && <p>You  have a huge screen</p>}
           {isTabletOrMobile && <p>You are a tablet or mobile phone</p>}
           <p>Your are in {isPortrait ? 'portrait' : 'landscape'} orientation</p>
-          {isRetina && <p>You are retina</p>}
+          {isRetina && <p>You are retina</p>} */}
 
 
           <Link to="/portfolio" style={{ padding: "5px", fontFamily: "Stix Two Text", display: "flex", flexDirection: "column", justifyContent: "center", textAlign: "center", color: "#ffffe6", textShadow: "3px 3px #602060" }}>
