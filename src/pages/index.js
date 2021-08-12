@@ -2,7 +2,7 @@
 import * as React from "react";
 import { Link } from 'gatsby'
 import Layout from "../components/cover";
-import PictureOfMe from "../../src/images/IMG_3117.jpg";
+// import PictureOfMe from "../../src/images/IMG_3117.jpg";
 import { Container, Row, Col } from "react-bootstrap";
 import "@fontsource/stix-two-text/400.css"
 import StyledBackgroundSection from "../components/styledBackgroundSection";
@@ -66,7 +66,24 @@ const AboutPage = () => {
           </Link>
 
         </Col>
-        <Col xs={1}></Col>
+        <Col xs={1}>
+          {/* <h5>
+              I am a full stack web developer and experienced technical support
+              engineer for Adobe.
+            </h5>
+
+            <p>
+              I am constantly looking to learn and practice new ideas and
+              technologies. Hit me up if you'd like to chat, I'll try my best to
+              respond :)
+            </p>
+            <p>
+              Currently I am learning gatsbyjs (by updating this site!) and I am
+              working on a personal project involving twitch chatbots, shopify
+              api, react, firebase, nodejs and express. Check out my projects
+              page for more info on this and the rest of my projects!
+            </p> */}
+        </Col>
       </Row>
       {/* </Container> */}
     </Layout>
