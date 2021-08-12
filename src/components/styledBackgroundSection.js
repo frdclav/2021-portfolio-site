@@ -4,11 +4,11 @@ import styled from 'styled-components'
 
 import BackgroundImage from 'gatsby-background-image'
 
-const BackgroundSection = ({ className , children}) => {
+const BackgroundSection = ({ className, children }) => {
   const data = useStaticQuery(
     graphql`
       query {
-        desktop: file(relativePath: { eq: "_R040328.jpg" }) {
+        desktop: file(relativePath: { eq: "_R000148-2.jpg" }) {
           childImageSharp {
             fluid(quality: 100, maxWidth: 1920) {
               ...GatsbyImageSharpFluid_withWebp
