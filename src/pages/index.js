@@ -8,6 +8,7 @@ import "@fontsource/stix-two-text/400.css"
 import StyledBackgroundSection from "../components/styledBackgroundSection";
 import { Nav } from "react-bootstrap";
 import { useMediaQuery } from "react-responsive";
+import Clock from 'react-live-clock';
 // Step 2: Define your component
 const AboutPage = () => {
   const isDesktopOrLaptop = useMediaQuery({
@@ -35,6 +36,7 @@ const AboutPage = () => {
 
 
       </Row>
+
       <Row>
         <Col xs={1}></Col>
         <Col xs={10} style={{ fontFamily: "Stix Two Text", display: "flex", flexDirection: "column", justifyContent: "center", textAlign: "center", color: "#ffffe6" }}>
@@ -51,7 +53,7 @@ const AboutPage = () => {
           {isTabletOrMobile && <p>You are a tablet or mobile phone</p>}
           <p>Your are in {isPortrait ? 'portrait' : 'landscape'} orientation</p>
           {isRetina && <p>You are retina</p>} */}
-
+          <Link style={{ padding: "5px", fontFamily: "Stix Two Text", display: "flex", flexDirection: "column", justifyContent: "center", textAlign: "center", color: "#ffffe6", textShadow: "3px 3px #602060" }}><Clock ticking={true} format={'dddd ~ MMMM Mo YYYY ~ h:mm A'}></Clock></Link>
 
           <Link to="/portfolio" style={{ padding: "5px", fontFamily: "Stix Two Text", display: "flex", flexDirection: "column", justifyContent: "center", textAlign: "center", color: "#ffffe6", textShadow: "3px 3px #602060" }}>
             {" "}
