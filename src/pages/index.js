@@ -3,21 +3,19 @@ import * as React from "react";
 import { Link } from 'gatsby'
 import Layout from "../components/cover";
 // import PictureOfMe from "../../src/images/IMG_3117.jpg";
-import { Container, Row, Col } from "react-bootstrap";
-import "@fontsource/stix-two-text/400.css"
-import StyledBackgroundSection from "../components/styledBackgroundSection";
-import { Nav } from "react-bootstrap";
+import { Row, Col } from "react-bootstrap";
+import "@fontsource/stix-two-text/400.css";
 import { useMediaQuery } from "react-responsive";
 import Clock from 'react-live-clock';
 // Step 2: Define your component
 const AboutPage = () => {
-  const isDesktopOrLaptop = useMediaQuery({
-    query: '(min-width: 1224px)'
-  })
-  const isBigScreen = useMediaQuery({ query: '(min-width: 1824px)' })
+  // const isDesktopOrLaptop = useMediaQuery({
+  //   query: '(min-width: 1224px)'
+  // })
+  // const isBigScreen = useMediaQuery({ query: '(min-width: 1824px)' })
   const isTabletOrMobile = useMediaQuery({ query: '(max-width: 1224px)' })
-  const isPortrait = useMediaQuery({ query: '(orientation: portrait)' })
-  const isRetina = useMediaQuery({ query: '(min-resolution: 2dppx)' })
+  // const isPortrait = useMediaQuery({ query: '(orientation: portrait)' })
+  // const isRetina = useMediaQuery({ query: '(min-resolution: 2dppx)' })
 
 
 
@@ -45,7 +43,7 @@ const AboutPage = () => {
               src={PictureOfMe}
               alt="A picture of me"
             ></img> */}
-          <h3></h3>
+          {/* <h3></h3> */}
 
           {/* <h1>Device Test!</h1>
           {isDesktopOrLaptop && <p>You are a desktop or laptop</p>}
