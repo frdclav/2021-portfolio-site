@@ -64,7 +64,13 @@ const AboutPage = () => {
             {" "}
             linkedin{" "}
           </Link>
-
+          <Link
+            to="https://golfson.netlify.com/blog/"
+            style={{ padding: "5px", fontFamily: "Stix Two Text", display: "flex", flexDirection: "column", justifyContent: "center", textAlign: "center", color: "#ffffe6", textShadow: "3px 3px #602060" }}
+          >
+            {" "}
+            blog{" "}
+          </Link>
         </Col>
         <Col xs={1}>
           {/* <h5>
