@@ -71,6 +71,13 @@ const AboutPage = () => {
             {" "}
             blog{" "}
           </Link>
+          <Link
+            to="https://lightroom.adobe.com/gallery/ae45e006986a4c009abe7788dea4b5b6"
+            style={{ padding: "5px", fontFamily: "Stix Two Text", display: "flex", flexDirection: "column", justifyContent: "center", textAlign: "center", color: "#ffffe6", textShadow: "3px 3px #602060" }}
+          >
+            {" "}
+            photos{" "}
+          </Link>
         </Col>
         <Col xs={1}>
           {/* <h5>
